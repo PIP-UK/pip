@@ -1,0 +1,89 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .app-wrapper {
+    max-width: 800px;
+  }
+}
+
+.header {
+  text-align: center;
+  padding: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+button.half-width {
+  align-self: center;
+}
+
+.no-pills-found {
+  text-align: center;
+  padding: 16px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #606060;
+  overflow: hidden;
+}
+
+.pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.pill-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .pill-card {
+    width: 48%;
+  }
+}
+
+mat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-card-image {
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 8px;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Ibuprofen",
+    "manufacturer": "Pfizer",
+    "strength": "200mg",
+    "class": "NSAIDs",
+    "form": "Tablet",
+    "plNumber": "12345",
+    "shape": "Round",
+    "imprint1": "IB200",
+    "imprint2": "",
+    "size": "10mm",
+    "colour": "White",
+    "image": "assets/pills.jpg"
+  },
+  {
+    "name": "Paracetamol",
+    "manufacturer": "GSK",
+    "strength": "500mg",
+    "class": "NSAIDs",
+    "form": "Tablet",
+    "plNumber": "67890",
+    "shape": "Oval",
+    "imprint1": "P500",
+    "imprint2": "",
+    "size": "12mm",
+    "colour": "White",
+    "image": "assets/pills.jpg"
+  },
+  {
+    "name": "Atorvastatin",
+    "manufacturer": "TEVA",
+    "strength": "40mg",
+    "class": "Statin",
+    "form": "Tablet",
+    "plNumber": "23456",
+    "shape": "Oval",
+    "imprint1": "",
+    "imprint2": "",
+    "size": "12x6",
+    "colour": "White",
+    "image": "assets/pills.jpg"
+  },
+  {
+    "name": "Rampiril",
+    "manufacturer": "Zentiva",
+    "strength": "5mg",
+    "class": "ACEI",
+    "form": "Tablet",
+    "plNumber": "34567",
+    "shape": "Oval",
+    "imprint1": "5 NMP",
+    "imprint2": "5",
+    "size": "10x6",
+    "colour": "Pink",
+    "image": "assets/pills.jpg"
+  }
+]
